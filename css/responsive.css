@@ -1,0 +1,204 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media(max-width: 320px){
+	.Tinyone_secondpage_content_text::after{
+		display: none;
+	}
+	.Tinyone_thirdpage_text form button{
+		padding:20px 8px; 
+		margin-left: 5px;
+	}
+
+}
+
+@media(max-width: 375px){
+	.Tinyone_thirdpage_text form button{
+		padding:20px 8px; 
+		margin-left: 5px;
+	}
+
+}
+
+@media (max-width: 425px){
+	
+	header{
+		margin-top: 10px;
+	}
+	.Tinyone_logo{
+		margin-left: 30px;
+	}
+	.Tinyone_logo img{
+		width: 80%;
+	}
+	.logo-hover{
+		display: none;
+	}
+	i{
+		font-size:18px;
+	}
+	.Tinyone_social{
+		width: 100px;
+	}
+	.Tinyone_firstpage_content{
+		padding: 15px;
+	}
+	.Tinyone_firstpage_content_h1{
+		font-size: 40px;
+	}
+	.Tinyone_firstpage_content_p{
+		font-size: 18px;
+	}
+	.Tinyone_secondpage_content_item1{
+		width: 60% !important;
+	}
+	.Tinyone_secondpage_content_item2{
+		width: 80% !important;
+	}
+	.Tinyone_secondpage_content_item2 img{
+		width: 100%;
+	}
+	.Tinyone_secondpage_content_item3{
+		width: 60% !important;
+	}
+	.Tinyone_thirdpage_text form {
+		display: block;
+	}
+	.Tinyone_thirdpage_text form input:nth-child(2){
+		margin-top: 6px;
+		padding: 5px;
+		font-size: 14px;
+	}
+	.Tinyone_thirdpage_text form input:nth-child(1){
+		font-size: 12px;
+	}
+	.Tinyone_carousal2_p p{
+		font-size: 10px;
+	}
+	.Tinyone_carousal2_icon i{
+		font-size: 20px !important;
+		padding: 10px !important;
+		margin: 0 3px;
+	}
+	
+
+}
+
+
+
+
+@media (max-width: 549px){
+	.Tinyone_secondpage{
+		width: 100%;
+	}
+	.Tinyone_secondpage_content_item{
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.Tinyone_secondpage_content_item1{
+		width: 48% !important;
+	}
+	.Tinyone_secondpage_content_item2{
+		width: 57% !important;
+	}
+	.Tinyone_secondpage_content_item2 img{
+		width: 100%;
+	}
+	.Tinyone_secondpage_content_item3{
+		width: 48% !important;
+	}
+	.Tinyone_secondpage_content_text::after{
+		width: 70%
+	}
+}
+
+
+
+@media (max-width: 768px){
+	.Tinyone_secondpage_content_text h2{
+		font-size: 28px;
+	}
+	.Tinyone_secondpage_content_text p{
+		font-size: 18px;
+	}
+	.Tinyone_secondpage_content_item2{
+		width: 38%;
+	}
+	.Tinyone_secondpage_content_item h4{
+		font-size: 20px;
+	}
+	.Tinyone_secondpage_content_item p{
+		font-size: 14px;
+	}
+	.item1-1{
+		padding: 35px 0;
+	}
+	.item1-2{
+		padding: 35px 0;
+	}
+	.Tinyone_thirdpage_text{
+		padding: 95px 0px 115px;
+	}
+	.Tinyone_thirdpage_text form {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.Tinyone_thirdpage_text form input:nth-child(2){
+		margin-left: 5px;
+	}
+	.Tinyone_thirdpage_contact{
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.Tinyone_thirdpage_contact >div{
+		margin: 6px;
+	}
+	.Tinyone_carousal2_p p{
+		padding: 0 !important;
+	}
+	.Tinyone_carousal2_img img{
+		width: 110% !important;
+	}
+
+}
+
+@media(max-width: 991px){
+	.Tinyone_thirdpage_text{
+		padding: 95px 50px 115px;
+	}
+	.Tinyone_thirdpage_text form {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.Tinyone_thirdpage_text form input:nth-child(2){
+		margin-left: 5px;
+	}
+
+}
+
+
+
+
+
+@media (max-width: 1024px){
+	.main{
+		filter: blur(0);
+	}
+	.loading-screen{
+		display: none;
+	}
+}
